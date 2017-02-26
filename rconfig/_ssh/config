@@ -1,0 +1,9 @@
+Host gerrit.opnfv.org
+     HostName gerrit.opnfv.org
+     User rexlee8776
+     IdentityFile /root/.ssh/id_rsa_git
+
+Host 192.168.34.240
+    Port 8822    
+    User rexlee8776
+    IdentityFile /root/.ssh/id_rsa_git

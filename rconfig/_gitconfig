@@ -1,0 +1,17 @@
+[core]
+        repositoryformatversion = 0
+        filemode = true
+        bare = false
+        logallrefupdates = true
+[remote "origin"]
+        url = https://git.opnfv.org/yardstick
+        fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+        remote = origin
+        merge = refs/heads/master
+[remote "gerrit"]
+        url = ssh://rexlee8776@gerrit.opnfv.org:29418/yardstick.git
+        fetch = +refs/heads/*:refs/remotes/gerrit/*
+[user]
+        email = limingjiang@huawei.com
+        name = rexlee8776
